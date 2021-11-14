@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Testing that changes show up in gh pages deployment"
+          Re-testing that changes show up in gh pages deployment"
         </p>
         <a
           className="App-link"
