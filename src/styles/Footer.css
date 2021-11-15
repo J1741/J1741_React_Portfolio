@@ -1,5 +1,6 @@
 .footer-area {
   background-color: #3D5A80;
+  justify-content: center;
 }
 
 /* CSS for making small uniform-size icons */
@@ -13,4 +14,11 @@
 
 .icon-set {
   list-style-type: none;
+}
+
+@media screen and (max-width: 480px) {
+  .icon-image {
+    max-height: 40px;
+    max-width: 60px;
+  }
 }

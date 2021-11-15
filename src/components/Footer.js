@@ -7,7 +7,7 @@ import stackOverflowLogo from '../media/stackoverflow_logo_white.png';
 
 export default function Footer() {
   return (
-    <div className="footer-area">
+    <div className="footer-area d-flex">
 
       <ul className="icon-set d-flex">
         {/* Github */}
