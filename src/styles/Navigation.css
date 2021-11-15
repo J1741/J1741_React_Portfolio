@@ -9,14 +9,14 @@
   color: whitesmoke;
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover {
+  color: #EE6C4D;
+  background-color: transparent;
+}
+
+.nav-link:active, .nav-link:focus {
   color: #3D5A80;
   background-color: whitesmoke;
 }
-
-/* custom color for active nav link (DOESN'T WORK) */
-/* .nav-link.active {
-  color: red !important;
-} */
 
 
