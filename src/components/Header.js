@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Header.css';
 import Navigation  from './Navigation';
+import Footer from './Footer';
 
 export default function Header() {
   return (
