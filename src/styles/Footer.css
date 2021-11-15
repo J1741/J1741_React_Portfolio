@@ -1,0 +1,16 @@
+.footer-area {
+  background-color: #3D5A80;
+}
+
+/* CSS for making small uniform-size icons */
+.icon-image {
+  border-radius: 50%;
+  max-height: 50px;
+  max-width: 60px;
+  margin: 2px;
+  filter: brightness(0) invert(1);
+}
+
+.icon-set {
+  list-style-type: none;
+}
