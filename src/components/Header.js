@@ -4,8 +4,8 @@ import '../styles/Header.css';
 
 export default function Header() {
   return (
-    <div>
-      <h1>Testing Header</h1>
-    </div>
+    <header className="header">
+      <h1>J1741</h1>
+    </header>
   );
 }

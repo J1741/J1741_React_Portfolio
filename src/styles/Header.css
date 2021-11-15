@@ -1,0 +1,20 @@
+/* add space around header */
+/* set header font and background color */
+.header {
+  padding: 20px 0px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  background-color: #3D5A80;
+  color: #ffffff;
+}
+
+/* give developer name red background */
+/* add spacing around developer name and set max width to content */
+.header h1 {
+  background-color: #EE6C4D;
+  display: inline-block;
+  font-size: 48px;
+  padding: 5px 20px 5px 60px;
+  margin: 0px;
+  max-width: max-content;
+  font-weight: bold;
+}
