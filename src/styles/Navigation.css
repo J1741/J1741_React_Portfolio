@@ -14,9 +14,28 @@
   background-color: transparent;
 }
 
-.nav-link:active, .nav-link:focus {
-  color: #3D5A80;
-  background-color: whitesmoke;
+.nav-link.active, .nav-link:focus {
+  color: #3D5A80 !important;
+  background-color: whitesmoke !important ;
 }
 
 
+@media screen and (max-width: 540px) {
+  .nav {
+    flex-direction: column;
+    align-self: end;
+  }
+  .nav-link {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav {
+    flex-direction: column;
+    align-self: end;
+  }
+  .nav-link {
+    font-size: 20px;
+  }
+}
