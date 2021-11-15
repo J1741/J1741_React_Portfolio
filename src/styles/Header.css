@@ -5,6 +5,7 @@
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
   background-color: #3D5A80;
   color: #ffffff;
+  justify-content: space-between;
 }
 
 /* give developer name red background */
