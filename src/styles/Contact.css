@@ -5,7 +5,6 @@
 .contact-header {
   margin-bottom: 2rem;
   margin-left: -1em;
-  color: #37455e;
   color: #3D5A80;
 }
 
@@ -16,27 +15,32 @@
   font-size: 1.25em;
   font-weight: 500;
   margin-top: 5px;
-  color: #37455e;
+  color: #3D5A80;
 }
 
 .contact-name-input,
 .contact-email-input {
   margin-bottom: 1em;
   border-style: solid;
-  border-color: darkgray;
+  border-color: #3D5A80;
+  border-width: 1.5px; 
   border-radius: 2.5px;
   height: 2em;
-  font-size: 30px;
+  width: 40vw;
+  font-size: 25px;
   color: #293241;
+  margin-right: 20px;
 }
 
 .contact-message-input {
   margin-bottom: 1em;
   border-style: solid;
-  border-color: darkgray;
+  border-width: 1.5px; 
   border-radius: 2.5px;
-  font-size: 30px;
+  border-radius: 2.5px;
+  font-size: 25px;
   color: #293241;
+  width: 40vw;
 }
 
 .contact-submit-button {
@@ -50,4 +54,31 @@
   border-color: #EE6C4D;
   color: #EE6C4D;
   background-color: #ffdbd2;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    margin: 3rem;
+  }
+  
+  .contact-name-input,
+  .contact-email-input,
+  .contact-message-input {
+    font-size: 25px;
+    width: 90%;
+  }
+} 
+
+@media screen and (max-width: 540px) {
+  .contact-form {
+    margin: 2rem
+  }
+  
+  .contact-name-input,
+  .contact-email-input,
+  .contact-message-input {
+    font-size: 20px;
+    width: 80%;
+  }
+
 }
