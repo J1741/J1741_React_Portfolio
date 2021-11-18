@@ -1,0 +1,9 @@
+.App {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 124px;
+  display: flex;
+  flex-direction: column;
+}

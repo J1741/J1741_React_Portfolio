@@ -1,5 +1,7 @@
 .about-me {
-  align-content: center;
+  align-self: center;
+  height: fit-content;
+  padding-top: 25px;
 }
 
 .head-shot {
@@ -12,12 +14,12 @@
   border-color: darkgrey;
   border-width: 0.05em;
   align-self: center;
-  vertical-align: middle;
 }
 
 .bio-text {
-  margin: 2.5em 1.5em 1em 1.5em;
-  font-size: 20px;
+  margin: 2.5em 1.5em;
+  font-size: 1.5em;
+  padding-right: 2.5em;
 }
 
 .bio-link {
@@ -43,9 +45,9 @@
   .about-me {
     flex-direction: column;
   }
-  .logo-image {
+  .head-shot {
     height: auto;
-    max-width: 100%;
+    max-width: 70%;
     align-self: center;
   }
 } 
@@ -53,5 +55,10 @@
 @media screen and (max-width: 540px) {
   .head-shot {
     max-width: 80%;
+  }
+  .bio-text {
+    font-size: 1.25em;
+    margin: 1.5rem 1rem;
+    padding-right: 1.5em;
   }
 }
