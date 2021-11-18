@@ -1,3 +1,7 @@
+.about-me {
+  align-content: center;
+}
+
 .head-shot {
   border-radius: 50%;
   height: auto;
@@ -8,11 +12,11 @@
   border-color: darkgrey;
   border-width: 0.05em;
   align-self: center;
+  vertical-align: middle;
 }
 
 .bio-text {
-  /* margin: 1em; */
-  align-content: center;
+  margin: 2.5em 1.5em 1em 1.5em;
   font-size: 20px;
 }
 
