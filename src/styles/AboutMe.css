@@ -1,0 +1,20 @@
+.logo-image {
+  border-radius: 50%;
+  height: auto;
+  max-width: 40%;
+  margin: 1em 0em;
+  border-style: solid;
+  border-color: darkgrey;
+  border-width: 0.05em;
+}
+
+@media screen and (max-width: 768px) {
+  .about-me {
+    flex-direction: column;
+  }
+  .logo-image {
+    height: auto;
+    max-width: 80%;
+    align-self: center;
+  }
+} 
