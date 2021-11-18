@@ -1,3 +1,7 @@
 .contact-form {
   margin: 5rem;
 }
+
+label {
+  display: block;
+}
