@@ -2,6 +2,52 @@
   margin: 5rem;
 }
 
-label {
+.contact-header {
+  margin-bottom: 2rem;
+  margin-left: -1em;
+  color: #37455e;
+  color: #3D5A80;
+}
+
+.contact-name-label,
+.contact-email-label,
+.contact-message-label {
   display: block;
+  font-size: 1.25em;
+  font-weight: 500;
+  margin-top: 5px;
+  color: #37455e;
+}
+
+.contact-name-input,
+.contact-email-input {
+  margin-bottom: 1em;
+  border-style: solid;
+  border-color: darkgray;
+  border-radius: 2.5px;
+  height: 2em;
+  font-size: 30px;
+  color: #293241;
+}
+
+.contact-message-input {
+  margin-bottom: 1em;
+  border-style: solid;
+  border-color: darkgray;
+  border-radius: 2.5px;
+  font-size: 30px;
+  color: #293241;
+}
+
+.contact-submit-button {
+  border-color: #EE6C4D;
+  color: #EE6C4D;
+  border-width: 0.1em;
+  font-weight: 500;
+}
+
+.contact-submit-button:hover {
+  border-color: #EE6C4D;
+  color: #EE6C4D;
+  background-color: #ffdbd2;
 }
