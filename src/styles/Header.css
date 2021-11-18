@@ -28,6 +28,9 @@
   .header h1 {
     align-self: start;
   }
+  .banner-image {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
