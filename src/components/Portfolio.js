@@ -44,7 +44,7 @@ export default function Portfolio() {
         appUrl={apps[0].appUrl}
         appTitle={apps[0].appTitle}
         appRepo={apps[0].appRepo}
-        />
+      />
 
       {/* Vibe Cloud */}
       <Project 
@@ -52,7 +52,8 @@ export default function Portfolio() {
         appUrl={placeholderAppUrl}
         appTitle={placeholderAppTitle}
         appRepo={placeholderAppRepo}
-        />
+      />
+
       {/* E-Commerce Backend */}
       {/* Team Profile Generator */}
       {/* Password Generator */}
