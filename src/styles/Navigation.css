@@ -3,6 +3,7 @@
   padding: 1em;
 }
 
+/* class applied via React; couldn't get hover to work after */
 .nav-link {
   font-size: 1.5em;
   font-weight: bold;

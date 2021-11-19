@@ -14,6 +14,11 @@
   max-width: 60px;
   margin: 10px 5px 5px 5px;
   filter: brightness(0) invert(1);
+  transition: .5s ease;
+}
+
+.icon-image:hover {
+  box-shadow: white 1px 0 10px;
 }
 
 .icon-set {
