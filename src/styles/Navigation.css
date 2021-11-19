@@ -19,6 +19,25 @@
   background-color: whitesmoke !important ;
 }
 
+/* TESTING */
+.nav-link-active {
+  background: 0 0;
+  border: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #3D5A80 !important;
+  text-decoration: none;
+  background-color: whitesmoke !important;
+  border-radius: 0.25rem;
+  /* UNUSED */
+  /* align-self: center; */
+  /* padding: 1em; */
+  /* color: whitesmoke !important; */
+  /* color: #EE6C4D !important; */
+  /* border-radius: 5px; */
+}
 
 @media screen and (max-width: 768px) {
   .nav {

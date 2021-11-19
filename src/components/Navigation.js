@@ -9,9 +9,9 @@ export default function Navigation({currentPage, handlePageChange}) {
       {/* AboutMe navlink */}
       <li className="nav-item">
         <a
-          className="nav-link about-me-link"
           href="#aboutme"
           onClick={() => handlePageChange('AboutMe')}
+          className={`about-me-link ${currentPage === 'AboutMe' ? 'nav-link-active' : 'nav-link'}`}
           >
             About Me
           </a>
