@@ -79,3 +79,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Questions
+
+Questions and inquiries about the portfolio can be directed to the developer via GitHub: https://github.com/J1741
+
+Or via email: jseventeen41@gmail.com
