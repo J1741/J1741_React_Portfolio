@@ -2,7 +2,12 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Portfolio.css';
 import Project from './Project';
+// TESTING 
 import beverageViberGif from '../media/beverage_viber.gif'
+const placeholderAppImg = 'https://i.pinimg.com/originals/6f/da/0a/6fda0a15c880a2c0094d63e99402d405.gif';
+const placeholderAppUrl = 'https://en.wikipedia.org/wiki/Obi-Wan_Kenobi';
+const placeholderAppTitle = 'Obi-Wan Kenobi';
+const placeholderAppRepo = 'https://en.wikipedia.org/wiki/Alec_Guinness';
 
 export default function Portfolio() {
   return(
@@ -27,7 +32,12 @@ export default function Portfolio() {
       </div>
 
       {/* Vibe Cloud */}
-      <Project />
+      <Project 
+        appImage={placeholderAppImg}
+        appUrl={placeholderAppUrl}
+        appTitle={placeholderAppTitle}
+        appRepo={placeholderAppRepo}
+      />
       {/* E-Commerce Backend */}
       {/* Team Profile Generator */}
       {/* Password Generator */}
