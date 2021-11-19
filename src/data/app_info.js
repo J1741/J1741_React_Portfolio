@@ -1,4 +1,5 @@
 const apps = [
+
   // Beverage Viber
   {
     appImage: "https://github.com/shobes572/The_Beverage_Viber/blob/main/images/demo.gif?raw=true",
@@ -9,42 +10,42 @@ const apps = [
 
   // Vibe Cloud
   {
-    appImage: "",
-    appUrl: "",
-    appTitle: "",
-    appRepo: ""
+    appImage: "https://raw.githubusercontent.com/Marys0l/vibe-cloud-project/master/screenshot.png",
+    appUrl: "https://marys0l.github.io/vibe-cloud-project/",
+    appTitle: "Vibe Cloud",
+    appRepo: "https://github.com/Marys0l/vibe-cloud-project"
   },
 
   // E-Commerce Backend
   {
-  appImage: "",
-  appUrl: "",
-  appTitle: "",
-  appRepo: ""
+    appImage: "https://raw.githubusercontent.com/J1741/J1741_e-commerce_backend/main/screenshot.png",
+    appUrl: "https://www.youtube.com/watch?v=m8OpHL7DOxU",
+    appTitle: "E-Commerce Backend",
+    appRepo: "https://github.com/J1741/J1741_e-commerce_backend"
   },
 
   // Team Profile Generator
   {
-  appImage: "",
-  appUrl: "",
-  appTitle: "",
-  appRepo: ""
+    appImage: "https://raw.githubusercontent.com/J1741/hw_10_team_profile_generator/main/screenshot.png",
+    appUrl: "https://drive.google.com/file/d/14S6fMCdvYJHYZuyq6WmP48BAa2AtfPgn/view",
+    appTitle: "Team Profile Generator",
+    appRepo: "https://github.com/J1741/hw_10_team_profile_generator"
   },
 
   // Password Generator
   {
-  appImage: "",
-  appUrl: "",
-  appTitle: "",
-  appRepo: ""
+    appImage: "https://raw.githubusercontent.com/J1741/hw_03_password_generator/main/screenshot.png",
+    appUrl: "https://j1741.github.io/hw_03_password_generator/",
+    appTitle: "Password Generator",
+    appRepo: "https://github.com/J1741/hw_03_password_generator"
   },
 
   // Weather Dashboard
   {
-  appImage: "",
-  appUrl: "",
-  appTitle: "",
-  appRepo: ""
+    appImage: "https://raw.githubusercontent.com/J1741/J1741_Weather_Dashboard/main/screenshot_desktop.png",
+    appUrl: "https://j1741.github.io/J1741_Weather_Dashboard/",
+    appTitle: "Weather Dashboard",
+    appRepo: "https://github.com/J1741/J1741_Weather_Dashboard"
   } 
 
 ]
