@@ -1,10 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Project.css';
-// const placeholderGif = 'https://i.pinimg.com/originals/6f/da/0a/6fda0a15c880a2c0094d63e99402d405.gif';
-// const placeholderAppUrl = 'https://en.wikipedia.org/wiki/Obi-Wan_Kenobi';
-// const placeholderAppTitle = 'Obi-Wan Kenobi';
-// const placeholderRepoUrl = 'https://en.wikipedia.org/wiki/Alec_Guinness';
 
 export default function Project (props) {
   console.log(props);

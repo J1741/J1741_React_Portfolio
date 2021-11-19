@@ -8,6 +8,9 @@ const placeholderAppImg = 'https://i.pinimg.com/originals/6f/da/0a/6fda0a15c880a
 const placeholderAppUrl = 'https://en.wikipedia.org/wiki/Obi-Wan_Kenobi';
 const placeholderAppTitle = 'Obi-Wan Kenobi';
 const placeholderAppRepo = 'https://en.wikipedia.org/wiki/Alec_Guinness';
+const apps = require('../data/app_info.js')
+
+console.log("*** APPS!! ***", apps);
 
 export default function Portfolio() {
   return(
