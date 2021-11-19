@@ -1,0 +1,23 @@
+.resume-section {
+  /* margin-top: 2rem; */
+  margin: 0em 0.5em;
+  font-size: 20px;
+  color: #293241;
+}
+
+.resume-heading,
+.frontend-heading,
+.backend-heading {
+  margin-top: 2rem;
+  color: #3D5A80;
+}
+
+.resume-link {
+  color: #3D5A80; 
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.resume-link:hover {
+  color: #EE6C4D;
+}
