@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repo contains my updated portfolio page, which has been refactored to use React. This udpated portfolio has been deployed on GitHub pages at the following URL: https://j1741.github.io/professional_materials/
+This repo contains my updated portfolio page, which has been refactored to use React. This updated portfolio has been deployed on GitHub pages at the following URL: https://j1741.github.io/professional_materials/
 
 ## Updates to Professional Materials
 
