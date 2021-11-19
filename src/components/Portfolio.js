@@ -19,27 +19,8 @@ export default function Portfolio() {
     <h3 className="portfolio-heading">Portfolio</h3>
     <div className="row row-cols-1 row-cols-md-2 g-4 app-gallery">
 
-
       {/* Beverage Viber */}
-      
-      {/* <div className="col">
-        <div className="card featured-app">
-          <img
-            src={beverageViberGif}
-            className="card-img"
-          />
-          <div className="app-overlay">
-            <h5 className="card-title">
-              <a href="https://guarded-meadow-10732.herokuapp.com/">The Beverage Viber</a>
-            </h5>
-            <p className="card-text"><a href="https://github.com/shobes572/The_Beverage_Viber">GitHub</a></p>
-          </div>
-          </div>
-      </div> */}
-
-      {/* TESTING: Beverage Viber */}
       <Project 
-        // appImage={apps[0].appImage}
         appImage={apps[0].appImage}
         appUrl={apps[0].appUrl}
         appTitle={apps[0].appTitle}
@@ -48,16 +29,44 @@ export default function Portfolio() {
 
       {/* Vibe Cloud */}
       <Project 
-        appImage={placeholderAppImg}
-        appUrl={placeholderAppUrl}
-        appTitle={placeholderAppTitle}
-        appRepo={placeholderAppRepo}
+        appImage={apps[1].appImage}
+        appUrl={apps[1].appUrl}
+        appTitle={apps[1].appTitle}
+        appRepo={apps[1].appRepo}
       />
 
       {/* E-Commerce Backend */}
+      <Project 
+        appImage={apps[2].appImage}
+        appUrl={apps[2].appUrl}
+        appTitle={apps[2].appTitle}
+        appRepo={apps[2].appRepo}
+      />
+
       {/* Team Profile Generator */}
+      <Project 
+        appImage={apps[3].appImage}
+        appUrl={apps[3].appUrl}
+        appTitle={apps[3].appTitle}
+        appRepo={apps[3].appRepo}
+      />
+
       {/* Password Generator */}
+      <Project 
+        appImage={apps[4].appImage}
+        appUrl={apps[4].appUrl}
+        appTitle={apps[4].appTitle}
+        appRepo={apps[4].appRepo}
+      />
+
       {/* Weather Dashboard */}
+      <Project 
+        appImage={apps[5].appImage}
+        appUrl={apps[5].appUrl}
+        appTitle={apps[5].appTitle}
+        appRepo={apps[5].appRepo}
+      />
+
     </div>
     </>
   )
