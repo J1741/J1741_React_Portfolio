@@ -11,27 +11,31 @@ export default function Resume() {
     <div className="container resume-section">
 
       {/* resume */}
-      <h2 className="resume-heading">Resume</h2>
+      <h3 className="resume-heading">Resume</h3>
       <p>
         Download my resume <a className="resume-link" target="blank" href={resume}>here</a>.
       </p>
 
       {/* proficiencies */}
-      <h2>Front-end Proficiencies</h2>
-        <ul>
-          <li>tbd</li>
-          <li>tbd</li>
-          <li>tbd</li>
-          <li>tbd</li>
-        </ul>
+      <h3>Front-end Proficiencies</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>responsive design</li>
+        <li>Bootstrap, Materialize, React Bootstrap</li>
+        <li>React</li>
+      </ul>
 
-      <h2>Back-end</h2>
-        <ul>
-          <li>tbd</li>
-          <li>tbd</li>
-          <li>tbd</li>
-          <li>tbd</li>
-        </ul>
+      <h3>Back-end Proficiencies</h3>
+      <ul>
+        <li>APIs</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>SQL, Sequelize</li>
+        <li>MongoDB, Mongoose</li>
+        <li>REST</li>
+      </ul>
 
     </div>
   );
