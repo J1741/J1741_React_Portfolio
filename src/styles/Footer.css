@@ -24,9 +24,13 @@
 .icon-set {
   list-style-type: none;
   align-self: center;
+  margin: 1em 0;
 }
 
 @media screen and (max-width: 480px) {
+  .icon-set {
+    margin: 0.5em 0;
+  }
   .icon-image {
     max-height: 40px;
     max-width: 60px;
