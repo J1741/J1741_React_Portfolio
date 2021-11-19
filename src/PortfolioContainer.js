@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Project from './components/Project';
 import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
 
 // renders portfolio container
 export default function PortfolioContainer() {
@@ -19,9 +20,9 @@ export default function PortfolioContainer() {
     if (currentPage === 'AboutMe') {
       return <AboutMe />;
     }
-    // ** if currentPage is Portfolio, return ??Project component for each project??
+
     if (currentPage === 'Portfolio') {
-      return <Project />;
+      return <Portfolio />;
     }
 
     if (currentPage === 'Contact') {
