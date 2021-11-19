@@ -14,9 +14,8 @@ export default function PortfolioContainer() {
   // set AboutMe as default value of currentPage
   const [currentPage, setCurrentPage] = useState('AboutMe');
 
-  // render page based on value of currentPage
+  // return component based on value of currentPage
   const renderPage = () => {
-    // ** if currentPage is AboutMe, return AboutMe
     if (currentPage === 'AboutMe') {
       return <AboutMe />;
     }
@@ -24,14 +23,15 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return <Project />;
     }
-    // ** if currentPage is Contact, return Contact
+
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    // ** if currentPage is Resume, return Resume
+
     if (currentPage === 'Resume') {
       return <Resume />;
     }
+
     // otherwise, return AboutMe
     return <AboutMe />;
   }
