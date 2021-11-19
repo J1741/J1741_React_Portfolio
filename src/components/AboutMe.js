@@ -6,7 +6,7 @@ import headShot from '../media/head_shot_square_close.png';
 export default function AboutMe() {
   return (
     <div className="container d-flex about-me">
-      <img className="head-shot" src={headShot}/>
+      <img className="head-shot" src={headShot} alt="headshot of developer"/>
       <p className="container bio-text">
         Hello there! I'm <a className="bio-link" target="blank" href="https://github.com/J1741">J1741</a>, a full stack web developer with a strong sense of design and a love for <a className="hidden-link" target="blank" href="https://gist.github.com/J1741/f1d71d52a92d725a70aa0af62df21555">technical detail</a>. 
         <br /><br />

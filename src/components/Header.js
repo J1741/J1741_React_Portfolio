@@ -11,7 +11,7 @@ export default function Header({currentPage, handlePageChange}) {
       <h1>J1741</h1>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
     </header>
-    <img class="banner-image" src={profileBanner} />
+    <img className="banner-image" src={profileBanner} alt="black and white water splash"/>
     </>
   );
 }

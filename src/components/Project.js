@@ -14,6 +14,7 @@ export default function Project (props) {
           <img
             src={props.appImage}
             className="card-img"
+            alt="application screenshot or gif"
           />
           <div className="app-overlay">
             <h5 className="card-title">

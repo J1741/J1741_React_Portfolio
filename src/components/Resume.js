@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Resume.css';
-// import resume
 import resume from '../media/Kira_Griffitt_resume_20211031_v3.pdf';
 
 // return JSX for resume

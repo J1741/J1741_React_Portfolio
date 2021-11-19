@@ -11,13 +11,13 @@ export default function Footer() {
 
       <ul className="icon-set d-flex">
         {/* Github */}
-        <li><a href="https://github.com/j1741" target="_blank"><img className="icon-image" src={gitHubLogo} alt="GitHub" title="GitHub"/></a></li>
+        <li><a href="https://github.com/j1741" target="_blank" rel="noreferrer"><img className="icon-image" src={gitHubLogo} alt="GitHub" title="GitHub"/></a></li>
 
         {/* LinkedIn */}
-        <li><a href="https://www.linkedin.com/in/kira-griffitt-7232b56b" target="_blank"><img className="icon-image" src={linkedInLogo} alt="LinkedIn" title="LinkedIn"/></a></li>
+        <li><a href="https://www.linkedin.com/in/kira-griffitt-7232b56b" target="_blank" rel="noreferrer"><img className="icon-image" src={linkedInLogo} alt="LinkedIn" title="LinkedIn"/></a></li>
 
         {/* Stack Overflow */}
-        <li><a href="https://stackoverflow.com/users/16043908/a2277" target="_blank"><img className="icon-image" src={stackOverflowLogo} alt="Stack Overflow" title="Stack Overflow"/></a></li>
+        <li><a href="https://stackoverflow.com/users/16043908/a2277" target="_blank" rel="noreferrer"><img className="icon-image" src={stackOverflowLogo} alt="Stack Overflow" title="Stack Overflow"/></a></li>
       </ul>
 
     </div>

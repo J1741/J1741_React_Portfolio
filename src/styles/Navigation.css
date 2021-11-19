@@ -9,7 +9,7 @@
   color: whitesmoke !important;
 }
 
-/* React-applied class replicating bootstrap styling */
+/* class applied via React; had to replicate bootstrap styling */
 .nav-link-active {
   background: 0 0;
   border: 0;

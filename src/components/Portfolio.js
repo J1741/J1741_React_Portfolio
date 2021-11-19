@@ -2,16 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Portfolio.css';
 import Project from './Project';
-// TESTING 
-import beverageViberGif from '../media/beverage_viber.gif'
-const placeholderAppImg = 'https://i.pinimg.com/originals/6f/da/0a/6fda0a15c880a2c0094d63e99402d405.gif';
-const placeholderAppUrl = 'https://en.wikipedia.org/wiki/Obi-Wan_Kenobi';
-const placeholderAppTitle = 'Obi-Wan Kenobi';
-const placeholderAppRepo = 'https://en.wikipedia.org/wiki/Alec_Guinness';
 const apps = require('../data/app_info.js')
-
-// TESTING apps data
-console.log("*** APPS!! ***", apps);
 
 export default function Portfolio() {
   return(
