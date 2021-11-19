@@ -6,7 +6,7 @@
 .nav-link {
   font-size: 1.5em;
   font-weight: bold;
-  color: whitesmoke;
+  color: whitesmoke !important;
 }
 
 .nav-link:hover {
