@@ -4,12 +4,12 @@ import '../styles/Header.css';
 import Navigation  from './Navigation';
 import profileBanner from '../media/profile_banner.jpeg';
 
-export default function Header() {
+export default function Header({currentPage, handlePageChange}) {
   return (
     <>
     <header className="header d-flex">
       <h1>J1741</h1>
-      <Navigation />
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
     </header>
     <img class="banner-image" src={profileBanner} />
     </>
