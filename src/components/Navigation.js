@@ -20,9 +20,9 @@ export default function Navigation({currentPage, handlePageChange}) {
       {/* Portfolio navlink */}
       <li className="nav-item">
         <a
-          className="nav-link portfolio-link"
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
+          className={`portfolio-link ${currentPage === 'Portfolio' ? 'nav-link-active' : 'nav-link'}`}
           >
             Portfolio
           </a>
@@ -31,9 +31,9 @@ export default function Navigation({currentPage, handlePageChange}) {
       {/* Contact navlink */}
       <li className="nav-item">
         <a
-          className="nav-link contact-link"
           href="#contact"
           onClick={() => handlePageChange('Contact')}
+          className={`contact-link ${currentPage === 'Contact' ? 'nav-link-active' : 'nav-link'}`}
           >
             Contact
           </a>
@@ -42,9 +42,9 @@ export default function Navigation({currentPage, handlePageChange}) {
       {/* Resume navlink */}
       <li className="nav-item">
         <a
-          className="nav-link resume-link"
           href="#resume"
           onClick={() => handlePageChange('Resume')}
+          className={`resume-link ${currentPage === 'Resume' ? 'nav-link-active' : 'nav-link'}`}
           >
             Resume
         </a>
