@@ -27,6 +27,7 @@ export default function Portfolio() {
       </div>
 
       {/* Vibe Cloud */}
+      <Project />
       {/* E-Commerce Backend */}
       {/* Team Profile Generator */}
       {/* Password Generator */}
