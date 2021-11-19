@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/j1741_react_portfolio/static/css/main.5d0b5dec.chunk.css",
-    "main.js": "/j1741_react_portfolio/static/js/main.474d648e.chunk.js",
-    "main.js.map": "/j1741_react_portfolio/static/js/main.474d648e.chunk.js.map",
+    "main.css": "/j1741_react_portfolio/static/css/main.5afab586.chunk.css",
+    "main.js": "/j1741_react_portfolio/static/js/main.a5e2159a.chunk.js",
+    "main.js.map": "/j1741_react_portfolio/static/js/main.a5e2159a.chunk.js.map",
     "runtime-main.js": "/j1741_react_portfolio/static/js/runtime-main.e581fd3c.js",
     "runtime-main.js.map": "/j1741_react_portfolio/static/js/runtime-main.e581fd3c.js.map",
     "static/css/2.383c0125.chunk.css": "/j1741_react_portfolio/static/css/2.383c0125.chunk.css",
@@ -10,9 +10,10 @@
     "static/js/2.43dc0d9b.chunk.js.map": "/j1741_react_portfolio/static/js/2.43dc0d9b.chunk.js.map",
     "index.html": "/j1741_react_portfolio/index.html",
     "static/css/2.383c0125.chunk.css.map": "/j1741_react_portfolio/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.5d0b5dec.chunk.css.map": "/j1741_react_portfolio/static/css/main.5d0b5dec.chunk.css.map",
+    "static/css/main.5afab586.chunk.css.map": "/j1741_react_portfolio/static/css/main.5afab586.chunk.css.map",
     "static/js/2.43dc0d9b.chunk.js.LICENSE.txt": "/j1741_react_portfolio/static/js/2.43dc0d9b.chunk.js.LICENSE.txt",
     "static/media/Kira_Griffitt_resume_20211031_v3.19bc4530.pdf": "/j1741_react_portfolio/static/media/Kira_Griffitt_resume_20211031_v3.19bc4530.pdf",
+    "static/media/beverage_viber.ca614de7.gif": "/j1741_react_portfolio/static/media/beverage_viber.ca614de7.gif",
     "static/media/github_logo_white.da9e2dd4.png": "/j1741_react_portfolio/static/media/github_logo_white.da9e2dd4.png",
     "static/media/head_shot_square_close.066b6c7c.png": "/j1741_react_portfolio/static/media/head_shot_square_close.066b6c7c.png",
     "static/media/linkedin_logo_white.f057c355.png": "/j1741_react_portfolio/static/media/linkedin_logo_white.f057c355.png",
@@ -23,7 +24,7 @@
     "static/js/runtime-main.e581fd3c.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.43dc0d9b.chunk.js",
-    "static/css/main.5d0b5dec.chunk.css",
-    "static/js/main.474d648e.chunk.js"
+    "static/css/main.5afab586.chunk.css",
+    "static/js/main.a5e2159a.chunk.js"
   ]
 }
