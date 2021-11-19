@@ -5,135 +5,107 @@ import '../styles/Project.css';
 export default function Project () {
   return (
     <>
-    {/* TESTING */}
-     <div class="row row-cols-1 row-cols-md-2 g-4 image-gallery">
-      {/* TESTING-1 */}
-      <div class="col">
-        <div class="card bg-dark text-white">
+    {/* TESTING - MOVE?? */}
+    <h3 className="portfolio-heading">Portfolio</h3>
+    <div className="row row-cols-1 row-cols-md-2 g-4 app-gallery">
+
+      {/* TESTING App-1 */}
+      <div className="col">
+        <div className="card featured-app">
           <img
             src="https://placekitten.com/g/500/300"
-            class="card-img"
-            alt="testing"
+            className="card-img"
           />
-          <div class="card-img-overlay">
-            <h5 class="card-title">
+          <div className="app-overlay">
+            <h5 className="card-title">
               <a href="https://placekitten.com/g/500/300">Card title</a>
             </h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
-            </p>
-            <p class="card-text">Last updated 3 mins ago</p>
+            <p className="card-text"><a href="http://www.npr.org">GitHub</a></p>
           </div>
         </div>
       </div>
 
-      {/* TESTING-2 */}
-      <div class="col">
-        <div class="card bg-dark text-white">
+      {/* TESTING App-2 */}
+      <div className="col">
+        <div className="card featured-app">
           <img
             src="https://placekitten.com/g/500/300"
-            class="card-img"
-            alt="testing"
+            className="card-img"
           />
-          <div class="card-img-overlay">
-            <h5 class="card-title">
+          <div className="app-overlay">
+            <h5 className="card-title">
               <a href="https://placekitten.com/g/500/300">Card title</a>
             </h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
-            </p>
-            <p class="card-text">Last updated 3 mins ago</p>
+            <p className="card-text"><a href="http://www.npr.org">GitHub</a></p>
           </div>
         </div>
       </div>
 
-      {/* TESTING-3 */}
-      <div class="col">
-        <div class="card bg-dark text-white">
+      {/* TESTING App-3 */}
+      <div className="col">
+        <div className="card featured-app">
           <img
             src="https://placekitten.com/g/500/300"
-            class="card-img"
-            alt="testing"
+            className="card-img"
           />
-          <div class="card-img-overlay">
-            <h5 class="card-title">
+          <div className="app-overlay">
+            <h5 className="card-title">
               <a href="https://placekitten.com/g/500/300">Card title</a>
             </h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
-            </p>
-            <p class="card-text">Last updated 3 mins ago</p>
+            <p className="card-text"><a href="http://www.npr.org">GitHub</a></p>
           </div>
         </div>
       </div>
 
-      {/* TESTING-4 */}
-      <div class="col">
-        <div class="card bg-dark text-white">
+      {/* TESTING App-4 */}
+      <div className="col">
+        <div className="card featured-app">
           <img
             src="https://placekitten.com/g/500/300"
-            class="card-img"
-            alt="testing"
+            className="card-img"
           />
-          <div class="card-img-overlay">
-            <h5 class="card-title">
+          <div className="app-overlay">
+            <h5 className="card-title">
               <a href="https://placekitten.com/g/500/300">Card title</a>
             </h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
-            </p>
-            <p class="card-text">Last updated 3 mins ago</p>
+            <p className="card-text"><a href="http://www.npr.org">GitHub</a></p>
           </div>
         </div>
       </div>
 
-      {/* TESTING-5 */}
-      <div class="col">
-        <div class="card bg-dark text-white">
+      {/* TESTING App-5 */}
+      <div className="col">
+        <div className="card featured-app">
           <img
             src="https://placekitten.com/g/500/300"
-            class="card-img"
-            alt="testing"
+            className="card-img"
           />
-          <div class="card-img-overlay">
-            <h5 class="card-title">
+          <div className="app-overlay">
+            <h5 className="card-title">
               <a href="https://placekitten.com/g/500/300">Card title</a>
             </h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
-            </p>
-            <p class="card-text">Last updated 3 mins ago</p>
+            <p className="card-text"><a href="http://www.npr.org">GitHub</a></p>
           </div>
         </div>
       </div>
 
-      {/* TESTING-6 */}
-      <div class="col">
-        <div class="card bg-dark text-white">
+      {/* TESTING App-6 */}
+      <div className="col">
+        <div className="card featured-app">
           <img
             src="https://placekitten.com/g/500/300"
-            class="card-img"
-            alt="testing"
+            className="card-img"
           />
-          <div class="card-img-overlay">
-            <h5 class="card-title">
+          <div className="app-overlay">
+            <h5 className="card-title">
               <a href="https://placekitten.com/g/500/300">Card title</a>
             </h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
-            </p>
-            <p class="card-text">Last updated 3 mins ago</p>
+            <p className="card-text"><a href="http://www.npr.org">GitHub</a></p>
           </div>
         </div>
       </div>
+
     </div>
- 
     </>
   );
 }

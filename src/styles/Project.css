@@ -1,5 +1,55 @@
 /* MOVE to PortfolioContainer.css ?? */
-.image-gallery {
-  margin: 4rem 3rem;
+.portfolio-heading {
+  margin: 2rem 2rem 1rem 2rem;
+  color: #3D5A80;
+  font-size: 2rem;
+}
+
+.app-gallery {
+  margin: 0.25rem 4rem;
   justify-content: center;
+}
+
+.app-overlay {
+  position: absolute;
+  bottom: 0;
+  padding: 1em; 
+  opacity: 0;
+  transition: .5s ease;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  color: whitesmoke;
+  font-size: 1em;
+}
+
+.app-overlay a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.5em;
+  transition: .5s ease;
+}
+
+.app-overlay a:hover {
+  color: white;
+  text-shadow: white 1px 0 10px;
+}
+
+.featured-app:hover .app-overlay {
+  opacity: 1;
+}
+
+@media screen and (max-width: 360px) {
+  .app-overlay a, .app-overlay p {
+    font-size: 0.75em;
+    line-height: 1em;
+  }  
+  /* TESTING: ??Move?? */
+  .portfolio-heading {
+    margin: 1rem 1rem;
+    color: #3D5A80;
+  }
+  .app-gallery {
+    margin: 2rem 1rem;
+  }
+  
 }
