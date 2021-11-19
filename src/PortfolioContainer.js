@@ -41,7 +41,7 @@ export default function PortfolioContainer() {
 
   return (
     <>
-      <Header />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}      
       <Footer />
     </>
