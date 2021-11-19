@@ -4,13 +4,15 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/Contact'
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Resume from './components/Resume';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <AboutMe />
+      {/* <AboutMe /> */}
       {/* <Contact /> */}
+      <Resume />
       <Footer />
     </div>
   );
