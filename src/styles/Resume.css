@@ -21,3 +21,9 @@
 .resume-link:hover {
   color: #EE6C4D;
 }
+
+@media screen and (min-width: 769px) {
+  .resume-section {
+    margin: 2rem 3rem;
+  }
+} 
