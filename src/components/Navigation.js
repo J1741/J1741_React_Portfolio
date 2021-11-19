@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Navigation.css';
 
-export default function Navigation() {
+export default function Navigation({currentPage, handlePageChange}) {
   return (
     <nav className="nav nav-pills">
       <li className="nav-item">
