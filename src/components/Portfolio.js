@@ -10,16 +10,19 @@ const placeholderAppTitle = 'Obi-Wan Kenobi';
 const placeholderAppRepo = 'https://en.wikipedia.org/wiki/Alec_Guinness';
 const apps = require('../data/app_info.js')
 
+// TESTING apps data
 console.log("*** APPS!! ***", apps);
 
 export default function Portfolio() {
   return(
     <>
     <h3 className="portfolio-heading">Portfolio</h3>
-    <div className="row row-cols-1 row-cols-md-2 g-4 app-gallery"></div>
+    <div className="row row-cols-1 row-cols-md-2 g-4 app-gallery">
+
 
       {/* Beverage Viber */}
-      <div className="col">
+      
+      {/* <div className="col">
         <div className="card featured-app">
           <img
             src={beverageViberGif}
@@ -31,8 +34,17 @@ export default function Portfolio() {
             </h5>
             <p className="card-text"><a href="https://github.com/shobes572/The_Beverage_Viber">GitHub</a></p>
           </div>
-        </div>
-      </div>
+          </div>
+      </div> */}
+
+      {/* TESTING: Beverage Viber */}
+      <Project 
+        // appImage={apps[0].appImage}
+        appImage={apps[0].appImage}
+        appUrl={apps[0].appUrl}
+        appTitle={apps[0].appTitle}
+        appRepo={apps[0].appRepo}
+        />
 
       {/* Vibe Cloud */}
       <Project 
@@ -40,11 +52,12 @@ export default function Portfolio() {
         appUrl={placeholderAppUrl}
         appTitle={placeholderAppTitle}
         appRepo={placeholderAppRepo}
-      />
+        />
       {/* E-Commerce Backend */}
       {/* Team Profile Generator */}
       {/* Password Generator */}
       {/* Weather Dashboard */}
+    </div>
     </>
   )
 } 

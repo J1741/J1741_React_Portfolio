@@ -1,7 +1,7 @@
 const apps = [
   // Beverage Viber
   {
-    appImage: "../media/beverage_viber.gif",
+    appImage: "https://github.com/shobes572/The_Beverage_Viber/blob/main/images/demo.gif?raw=true",
     appUrl: "https://guarded-meadow-10732.herokuapp.com/",
     appTitle: "The Beverage Viber",
     appRepo: "https://github.com/shobes572/The_Beverage_Viber"

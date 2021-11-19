@@ -9,3 +9,19 @@
   margin: 0.25rem 4rem;
   justify-content: center;
 }
+
+@media screen and (max-width: 360px) {
+  .app-overlay a, .app-overlay p {
+    font-size: 0.75em;
+    line-height: 1em;
+  }  
+  /* TESTING: ??Move?? */
+  .portfolio-heading {
+    margin: 1rem 1rem;
+    color: #3D5A80;
+  }
+  .app-gallery {
+    margin: 2rem 1rem;
+  }
+  
+}
